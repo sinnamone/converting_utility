@@ -50,7 +50,6 @@ class confasta2tab(confastq2fasta):
 			f.write(data) #write the data back
 			f.truncate() #set the file size to the current size
 
-
 class countseq(confasta2tab):
 	def __init__(self,input,pathout,output,read):
 		confasta2tab.__init__(self, input,pathout,output,read)
