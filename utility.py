@@ -82,11 +82,6 @@ class contabular2fasta(countseq):
 			f_out.close()
 		f.close()
 
-
-
-
-
-
 if __name__ == '__main__':
 	if options.t == "fastq2fasta":
 		print('Conversion : fastq2fasta')
